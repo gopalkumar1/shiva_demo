@@ -8,7 +8,7 @@ app = Flask(__name__)
 def power():
     num1 = request.args.get('num')
     # calculate the square of num1
-    result = int(num1) ** 2
+    result = int(num1) ** 3
     # return the result as a string
     return str(result)
 
